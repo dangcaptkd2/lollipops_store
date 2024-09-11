@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="617.218750" height="146.200000">
+<defs>
+  <filter id="ds" x="0" y="0">
+    <feOffset in="SourceAlpha" dx="2" dy="2" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+    <feGaussianBlur result="blurOut" stdDeviation="1" />
+    <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+  </filter>
+  <pattern id="disordered-hatch" patternUnits="userSpaceOnUse" width="4" height="4">
+    <path d="M-1,1 l2,-2 M0,4 l4,-4 M3,5 l2,-2" stroke="#000000" opacity="0.3" />
+  </pattern>
+</defs>
+<line x1="388.750000" x2="388.750000" y1="34.000000" y2="62.000000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="I520I"><circle cx="388.750000" cy="34.000000" r="4.000000" fill="#0000ff" /></a><g transform="translate(388.750000,34.000000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">I520I</text></g><line x1="413.906250" x2="413.906250" y1="34.000000" y2="62.000000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="I555I"><circle cx="413.906250" cy="34.000000" r="4.000000" fill="#0000ff" /></a><g transform="translate(413.906250,34.000000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">I555I</text></g><a xlink:title=",  (817aa)"><rect fill="#BABDB6" x="15.000000" y="62.000000" width="587.218750" height="14.000000"/></a><g transform="translate(48.781250,57.000000)"><a xlink:href="https://www.ebi.ac.uk/interpro/entry/pfam/PF21052" xlink:title="EFR3, armadillo repeat"><rect fill="#2DCF00" x="0" y="0" width="69.000000" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#ffffff;" text-anchor="middle" x="34.500000" y="16.000000">EFR3_ARM</text></a></g>
+<g class="axis">
+<line x1="15.000000" x2="602.218750" y1="91.000000" y2="91.000000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="15.000000" y="106.000000">0</text><line x1="48.781250" x2="48.781250" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="48.781250" y="106.000000">47</text><line x1="117.781250" x2="117.781250" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="117.781250" y="106.000000">143</text><line x1="388.750000" x2="388.750000" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="388.750000" y="106.000000">520</text><line x1="413.906250" x2="413.906250" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="413.906250" y="106.000000">555</text><line x1="602.218750" x2="602.218750" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="602.218750" y="106.000000">817</text></g>
+<rect fill="#2DCF00" x="4" y="120.000000" width="12" height="12" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#000000;" text-anchor="start" x="20" y="132.000000">EFR3, armadillo repeat</text></svg>

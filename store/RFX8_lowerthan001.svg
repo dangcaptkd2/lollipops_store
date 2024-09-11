@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="893.162162" height="146.200000">
+<defs>
+  <filter id="ds" x="0" y="0">
+    <feOffset in="SourceAlpha" dx="2" dy="2" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+    <feGaussianBlur result="blurOut" stdDeviation="1" />
+    <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+  </filter>
+  <pattern id="disordered-hatch" patternUnits="userSpaceOnUse" width="4" height="4">
+    <path d="M-1,1 l2,-2 M0,4 l4,-4 M3,5 l2,-2" stroke="#000000" opacity="0.3" />
+  </pattern>
+</defs>
+<line x1="26.783784" x2="26.783784" y1="34.000000" y2="62.000000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="S8A"><circle cx="26.783784" cy="34.000000" r="4.000000" fill="#ff0000" /></a><g transform="translate(26.783784,34.000000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">S8A</text></g><a xlink:title=",  (586aa)"><rect fill="#BABDB6" x="15.000000" y="62.000000" width="863.162162" height="14.000000"/></a><g transform="translate(47.405405,57.000000)"><a xlink:href="https://www.ebi.ac.uk/interpro/entry/pfam/PF02257" xlink:title="RFX DNA-binding domain"><rect fill="#2DCF00" x="0" y="0" width="109.000000" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#ffffff;" text-anchor="middle" x="54.500000" y="16.000000">RFX_DNA_binding</text></a></g>
+<g class="axis">
+<line x1="15.000000" x2="878.162162" y1="91.000000" y2="91.000000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><line x1="26.783784" x2="26.783784" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="26.783784" y="106.000000">8</text><line x1="47.405405" x2="47.405405" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="47.405405" y="106.000000">22</text><line x1="156.405405" x2="156.405405" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="156.405405" y="106.000000">96</text><line x1="878.162162" x2="878.162162" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="878.162162" y="106.000000">586</text></g>
+<rect fill="#2DCF00" x="4" y="120.000000" width="12" height="12" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#000000;" text-anchor="start" x="20" y="132.000000">RFX DNA-binding domain</text></svg>

@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="430.000000" height="133.000000">
+<defs>
+  <filter id="ds" x="0" y="0">
+    <feOffset in="SourceAlpha" dx="2" dy="2" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+    <feGaussianBlur result="blurOut" stdDeviation="1" />
+    <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+  </filter>
+  <pattern id="disordered-hatch" patternUnits="userSpaceOnUse" width="4" height="4">
+    <path d="M-1,1 l2,-2 M0,4 l4,-4 M3,5 l2,-2" stroke="#000000" opacity="0.3" />
+  </pattern>
+</defs>
+<line x1="32.801047" x2="32.801047" y1="34.000000" y2="62.000000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="F17L"><circle cx="32.801047" cy="34.000000" r="4.000000" fill="#ff0000" /></a><g transform="translate(32.801047,34.000000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">F17L</text></g><line x1="183.586387" x2="183.586387" y1="34.000000" y2="62.000000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="F161L"><circle cx="183.586387" cy="34.000000" r="4.000000" fill="#ff0000" /></a><g transform="translate(183.586387,34.000000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">F161L</text></g><line x1="191.963351" x2="191.963351" y1="34.000000" y2="62.000000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="F169L"><circle cx="191.963351" cy="34.000000" r="4.000000" fill="#ff0000" /></a><g transform="translate(191.963351,34.000000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">F169L</text></g><a xlink:title=",  (382aa)"><rect fill="#BABDB6" x="15.000000" y="62.000000" width="400.000000" height="14.000000"/></a><g transform="translate(78.874346,57.000000)"><a xlink:href="https://www.ebi.ac.uk/interpro/entry/pfam/PF00059" xlink:title="Lectin C-type domain"><rect fill="#2DCF00" x="0" y="0" width="129.842932" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#ffffff;" text-anchor="middle" x="64.921466" y="16.000000">Lectin C-type domain</text></a></g>
+<g class="axis">
+<line x1="15.000000" x2="415.000000" y1="91.000000" y2="91.000000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><line x1="32.801047" x2="32.801047" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="32.801047" y="106.000000">17</text><line x1="78.874346" x2="78.874346" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="78.874346" y="106.000000">61</text><line x1="183.586387" x2="183.586387" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="183.586387" y="106.000000">161</text><line x1="208.717277" x2="208.717277" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="208.717277" y="106.000000">185</text><line x1="415.000000" x2="415.000000" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="415.000000" y="106.000000">382</text></g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version='1.0'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="430.000000" height="133.000000">
+<defs>
+  <filter id="ds" x="0" y="0">
+    <feOffset in="SourceAlpha" dx="2" dy="2" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+    <feGaussianBlur result="blurOut" stdDeviation="1" />
+    <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+  </filter>
+  <pattern id="disordered-hatch" patternUnits="userSpaceOnUse" width="4" height="4">
+    <path d="M-1,1 l2,-2 M0,4 l4,-4 M3,5 l2,-2" stroke="#000000" opacity="0.3" />
+  </pattern>
+</defs>
+<line x1="18.380282" x2="18.380282" y1="34.000000" y2="62.000000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="G6S"><circle cx="18.380282" cy="34.000000" r="4.000000" fill="#ff0000" /></a><g transform="translate(18.380282,34.000000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">G6S</text></g><line x1="35.845070" x2="35.845070" y1="34.000000" y2="62.000000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="G37S"><circle cx="35.845070" cy="34.000000" r="4.000000" fill="#ff0000" /></a><g transform="translate(35.845070,34.000000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">G37S</text></g><line x1="43.169014" x2="43.169014" y1="34.000000" y2="62.000000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="G50S"><circle cx="43.169014" cy="34.000000" r="4.000000" fill="#ff0000" /></a><g transform="translate(43.169014,34.000000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">G50S</text></g><a xlink:title=",  (710aa)"><rect fill="#BABDB6" x="15.000000" y="62.000000" width="400.000000" height="14.000000"/></a><g transform="translate(29.084507,57.000000)"><a xlink:href="https://www.ebi.ac.uk/interpro/entry/pfam/PF00405" xlink:title="Transferrin"><rect fill="#2DCF00" x="0" y="0" width="184.225352" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#ffffff;" text-anchor="middle" x="92.112676" y="16.000000">Transferrin</text></a></g>
+<g transform="translate(220.070423,57.000000)"><a xlink:href="https://www.ebi.ac.uk/interpro/entry/pfam/PF00405" xlink:title="Transferrin"><rect fill="#FF5353" x="0" y="0" width="186.478873" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#ffffff;" text-anchor="middle" x="93.239437" y="16.000000">Transferrin</text></a></g>
+<g class="axis">
+<line x1="15.000000" x2="415.000000" y1="91.000000" y2="91.000000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><line x1="18.380282" x2="18.380282" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="18.380282" y="106.000000">6</text><line x1="43.169014" x2="43.169014" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="43.169014" y="106.000000">50</text><line x1="213.309859" x2="213.309859" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="213.309859" y="106.000000">352</text><line x1="415.000000" x2="415.000000" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="415.000000" y="106.000000">710</text></g>
+</svg>

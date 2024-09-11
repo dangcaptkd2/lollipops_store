@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="430.000000" height="133.000000">
+<defs>
+  <filter id="ds" x="0" y="0">
+    <feOffset in="SourceAlpha" dx="2" dy="2" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+    <feGaussianBlur result="blurOut" stdDeviation="1" />
+    <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+  </filter>
+  <pattern id="disordered-hatch" patternUnits="userSpaceOnUse" width="4" height="4">
+    <path d="M-1,1 l2,-2 M0,4 l4,-4 M3,5 l2,-2" stroke="#000000" opacity="0.3" />
+  </pattern>
+</defs>
+<line x1="254.215686" x2="254.215686" y1="34.000000" y2="62.000000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="T122I"><circle cx="254.215686" cy="34.000000" r="4.000000" fill="#ff0000" /></a><g transform="translate(254.215686,34.000000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">T122I</text></g><line x1="287.549020" x2="287.549020" y1="34.000000" y2="62.000000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="T139I"><circle cx="287.549020" cy="34.000000" r="4.000000" fill="#ff0000" /></a><g transform="translate(287.549020,34.000000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">T139I</text></g><a xlink:title=",  (204aa)"><rect fill="#BABDB6" x="15.000000" y="62.000000" width="400.000000" height="14.000000"/></a><g transform="translate(103.235294,57.000000)"><a xlink:href="https://www.ebi.ac.uk/interpro/entry/pfam/PF07686" xlink:title="Immunoglobulin V-set domain"><rect fill="#2DCF00" x="0" y="0" width="207.843137" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#ffffff;" text-anchor="middle" x="103.921569" y="16.000000">Immunoglobulin V-set domain</text></a></g>
+<g class="axis">
+<line x1="15.000000" x2="415.000000" y1="91.000000" y2="91.000000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="15.000000" y="106.000000">0</text><line x1="103.235294" x2="103.235294" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="103.235294" y="106.000000">45</text><line x1="254.215686" x2="254.215686" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="254.215686" y="106.000000">122</text><line x1="287.549020" x2="287.549020" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="287.549020" y="106.000000">139</text><line x1="311.078431" x2="311.078431" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="311.078431" y="106.000000">151</text><line x1="415.000000" x2="415.000000" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="415.000000" y="106.000000">204</text></g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="430.000000" height="170.500000">
+<defs>
+  <filter id="ds" x="0" y="0">
+    <feOffset in="SourceAlpha" dx="2" dy="2" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+    <feGaussianBlur result="blurOut" stdDeviation="1" />
+    <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+  </filter>
+  <pattern id="disordered-hatch" patternUnits="userSpaceOnUse" width="4" height="4">
+    <path d="M-1,1 l2,-2 M0,4 l4,-4 M3,5 l2,-2" stroke="#000000" opacity="0.3" />
+  </pattern>
+</defs>
+<line x1="280.957447" x2="280.957447" y1="34.000000" y2="99.500000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="S750S"><circle cx="280.957447" cy="34.000000" r="4.000000" fill="#0000ff" /></a><g transform="translate(280.957447,34.000000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">S750S</text></g><line x1="281.666667" x2="281.666667" y1="46.500000" y2="99.500000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="S752S"><circle cx="281.666667" cy="46.500000" r="4.000000" fill="#0000ff" /></a><g transform="translate(281.666667,46.500000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">S752S</text></g><line x1="283.085106" x2="283.085106" y1="59.000000" y2="99.500000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="S756S"><circle cx="283.085106" cy="59.000000" r="4.000000" fill="#0000ff" /></a><g transform="translate(283.085106,59.000000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">S756S</text></g><line x1="283.794326" x2="283.794326" y1="71.500000" y2="99.500000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="S758S"><circle cx="283.794326" cy="71.500000" r="4.000000" fill="#0000ff" /></a><g transform="translate(283.794326,71.500000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">S758S</text></g><a xlink:title=",  (1128aa)"><rect fill="#BABDB6" x="15.000000" y="99.500000" width="400.000000" height="14.000000"/></a><g transform="translate(18.191489,94.500000)"><a xlink:href="https://www.ebi.ac.uk/interpro/entry/pfam/PF09735" xlink:title="Nck-associated protein 1"><rect fill="#2DCF00" x="0" y="0" width="394.680851" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#ffffff;" text-anchor="middle" x="197.340426" y="16.000000">Nck-associated protein 1</text></a></g>
+<g class="axis">
+<line x1="15.000000" x2="415.000000" y1="128.500000" y2="128.500000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="128.500000" y2="133.500000" stroke="#AAAAAA" /><line x1="18.191489" x2="18.191489" y1="128.500000" y2="133.500000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="18.191489" y="143.500000">9</text><line x1="280.957447" x2="280.957447" y1="128.500000" y2="133.500000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="280.957447" y="143.500000">750</text><line x1="415.000000" x2="415.000000" y1="128.500000" y2="133.500000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="415.000000" y="143.500000">1128</text></g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="430.000000" height="145.500000">
+<defs>
+  <filter id="ds" x="0" y="0">
+    <feOffset in="SourceAlpha" dx="2" dy="2" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+    <feGaussianBlur result="blurOut" stdDeviation="1" />
+    <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+  </filter>
+  <pattern id="disordered-hatch" patternUnits="userSpaceOnUse" width="4" height="4">
+    <path d="M-1,1 l2,-2 M0,4 l4,-4 M3,5 l2,-2" stroke="#000000" opacity="0.3" />
+  </pattern>
+</defs>
+<line x1="131.201117" x2="131.201117" y1="34.000000" y2="74.500000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="Q260R"><circle cx="131.201117" cy="34.000000" r="4.000000" fill="#ff0000" /></a><g transform="translate(131.201117,34.000000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">Q260R</text></g><line x1="136.564246" x2="136.564246" y1="34.000000" y2="74.500000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="Q272R"><circle cx="136.564246" cy="34.000000" r="4.000000" fill="#ff0000" /></a><g transform="translate(136.564246,34.000000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">Q272R</text></g><line x1="141.480447" x2="141.480447" y1="34.000000" y2="74.500000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="Q283R"><circle cx="141.480447" cy="34.000000" r="4.000000" fill="#ff0000" /></a><g transform="translate(141.480447,34.000000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">Q283R</text></g><line x1="146.843575" x2="146.843575" y1="46.500000" y2="74.500000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="Q295R"><circle cx="146.843575" cy="46.500000" r="4.000000" fill="#ff0000" /></a><g transform="translate(146.843575,46.500000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">Q295R</text></g><a xlink:title=",  (895aa)"><rect fill="#BABDB6" x="15.000000" y="74.500000" width="400.000000" height="14.000000"/></a><g transform="translate(23.044693,69.500000)"><a xlink:href="https://www.ebi.ac.uk/interpro/entry/pfam/PF01044" xlink:title="Vinculin family"><rect fill="#2DCF00" x="0" y="0" width="374.525140" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#ffffff;" text-anchor="middle" x="187.262570" y="16.000000">Vinculin family</text></a></g>
+<g class="axis">
+<line x1="15.000000" x2="415.000000" y1="103.500000" y2="103.500000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="103.500000" y2="108.500000" stroke="#AAAAAA" /><line x1="23.044693" x2="23.044693" y1="103.500000" y2="108.500000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="23.044693" y="118.500000">18</text><line x1="131.201117" x2="131.201117" y1="103.500000" y2="108.500000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="131.201117" y="118.500000">260</text><line x1="415.000000" x2="415.000000" y1="103.500000" y2="108.500000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="415.000000" y="118.500000">895</text></g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version='1.0'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="430.000000" height="159.400000">
+<defs>
+  <filter id="ds" x="0" y="0">
+    <feOffset in="SourceAlpha" dx="2" dy="2" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+    <feGaussianBlur result="blurOut" stdDeviation="1" />
+    <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+  </filter>
+  <pattern id="disordered-hatch" patternUnits="userSpaceOnUse" width="4" height="4">
+    <path d="M-1,1 l2,-2 M0,4 l4,-4 M3,5 l2,-2" stroke="#000000" opacity="0.3" />
+  </pattern>
+</defs>
+<line x1="19.481793" x2="19.481793" y1="34.000000" y2="62.000000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="P4S"><circle cx="19.481793" cy="34.000000" r="4.000000" fill="#ff0000" /></a><g transform="translate(19.481793,34.000000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">P4S</text></g><a xlink:title=",  (357aa)"><rect fill="#BABDB6" x="15.000000" y="62.000000" width="400.000000" height="14.000000"/></a><g transform="translate(114.719888,57.000000)"><a xlink:href="https://www.ebi.ac.uk/interpro/entry/pfam/PF01398" xlink:title="JAB1/Mov34/MPN/PAD-1 ubiquitin protease"><rect fill="#2DCF00" x="0" y="0" width="119.887955" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#ffffff;" text-anchor="middle" x="59.943978" y="16.000000">JAB</text></a></g>
+<g transform="translate(287.268908,57.000000)"><a xlink:href="https://www.ebi.ac.uk/interpro/entry/pfam/PF13012" xlink:title="Maintenance of mitochondrial structure and function"><rect fill="#FF5353" x="0" y="0" width="124.369748" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#ffffff;" text-anchor="middle" x="62.184874" y="16.000000">MitMem_reg</text></a></g>
+<g class="axis">
+<line x1="15.000000" x2="415.000000" y1="91.000000" y2="91.000000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><line x1="19.481793" x2="19.481793" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="19.481793" y="106.000000">4</text><line x1="114.719888" x2="114.719888" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="114.719888" y="106.000000">89</text><line x1="234.607843" x2="234.607843" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="234.607843" y="106.000000">196</text><line x1="287.268908" x2="287.268908" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="287.268908" y="106.000000">243</text><line x1="415.000000" x2="415.000000" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="415.000000" y="106.000000">357</text></g>
+<rect fill="#2DCF00" x="4" y="120.000000" width="12" height="12" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#000000;" text-anchor="start" x="20" y="132.000000">JAB1/Mov34/MPN/PAD-1 ubiquitin protease</text><rect fill="#FF5353" x="4" y="134.000000" width="12" height="12" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#000000;" text-anchor="start" x="20" y="146.000000">Maintenance of mitochondrial structure and function</text></svg>

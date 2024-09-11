@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="468.307692" height="146.200000">
+<defs>
+  <filter id="ds" x="0" y="0">
+    <feOffset in="SourceAlpha" dx="2" dy="2" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+    <feGaussianBlur result="blurOut" stdDeviation="1" />
+    <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+  </filter>
+  <pattern id="disordered-hatch" patternUnits="userSpaceOnUse" width="4" height="4">
+    <path d="M-1,1 l2,-2 M0,4 l4,-4 M3,5 l2,-2" stroke="#000000" opacity="0.3" />
+  </pattern>
+</defs>
+<line x1="303.615385" x2="303.615385" y1="34.000000" y2="62.000000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="A268T"><circle cx="303.615385" cy="34.000000" r="4.000000" fill="#ff0000" /></a><g transform="translate(303.615385,34.000000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">A268T</text></g><a xlink:title=",  (407aa)"><rect fill="#BABDB6" x="15.000000" y="62.000000" width="438.307692" height="14.000000"/></a><g transform="translate(319.769231,57.000000)"><a xlink:href="https://www.ebi.ac.uk/interpro/entry/pfam/PF13640" xlink:title="2OG-Fe(II) oxygenase superfamily"><rect fill="#2DCF00" x="0" y="0" width="98.000000" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#ffffff;" text-anchor="middle" x="49.000000" y="16.000000">2OG-FeII_Oxy_3</text></a></g>
+<g class="axis">
+<line x1="15.000000" x2="453.307692" y1="91.000000" y2="91.000000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="15.000000" y="106.000000">0</text><line x1="303.615385" x2="303.615385" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="303.615385" y="106.000000">268</text><line x1="417.769231" x2="417.769231" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="417.769231" y="106.000000">374</text><line x1="453.307692" x2="453.307692" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="453.307692" y="106.000000">407</text></g>
+<rect fill="#2DCF00" x="4" y="120.000000" width="12" height="12" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#000000;" text-anchor="start" x="20" y="132.000000">2OG-Fe(II) oxygenase superfamily</text></svg>

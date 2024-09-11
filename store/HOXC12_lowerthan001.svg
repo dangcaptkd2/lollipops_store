@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="503.357143" height="145.500000">
+<defs>
+  <filter id="ds" x="0" y="0">
+    <feOffset in="SourceAlpha" dx="2" dy="2" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+    <feGaussianBlur result="blurOut" stdDeviation="1" />
+    <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+  </filter>
+  <pattern id="disordered-hatch" patternUnits="userSpaceOnUse" width="4" height="4">
+    <path d="M-1,1 l2,-2 M0,4 l4,-4 M3,5 l2,-2" stroke="#000000" opacity="0.3" />
+  </pattern>
+</defs>
+<line x1="261.750000" x2="261.750000" y1="34.000000" y2="74.500000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="G147G"><circle cx="261.750000" cy="34.000000" r="4.000000" fill="#0000ff" /></a><g transform="translate(261.750000,34.000000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">G147G</text></g><line x1="265.107143" x2="265.107143" y1="46.500000" y2="74.500000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="D149A"><circle cx="265.107143" cy="46.500000" r="4.000000" fill="#ff0000" /></a><g transform="translate(265.107143,46.500000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">D149A</text></g><a xlink:title=",  (282aa)"><rect fill="#BABDB6" x="15.000000" y="74.500000" width="473.357143" height="14.000000"/></a><g transform="translate(375.892857,69.500000)"><a xlink:href="https://www.ebi.ac.uk/interpro/entry/pfam/PF00046" xlink:title="Homeodomain"><rect fill="#2DCF00" x="0" y="0" width="94.000000" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#ffffff;" text-anchor="middle" x="47.000000" y="16.000000">Homeodomain</text></a></g>
+<g class="axis">
+<line x1="15.000000" x2="488.357143" y1="103.500000" y2="103.500000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="103.500000" y2="108.500000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="103.500000" y2="108.500000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="15.000000" y="118.500000">0</text><line x1="261.750000" x2="261.750000" y1="103.500000" y2="108.500000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="261.750000" y="118.500000">147</text><line x1="375.892857" x2="375.892857" y1="103.500000" y2="108.500000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="375.892857" y="118.500000">215</text><line x1="488.357143" x2="488.357143" y1="103.500000" y2="108.500000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="488.357143" y="118.500000">282</text></g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version='1.0'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="504.682927" height="159.400000">
+<defs>
+  <filter id="ds" x="0" y="0">
+    <feOffset in="SourceAlpha" dx="2" dy="2" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+    <feGaussianBlur result="blurOut" stdDeviation="1" />
+    <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+  </filter>
+  <pattern id="disordered-hatch" patternUnits="userSpaceOnUse" width="4" height="4">
+    <path d="M-1,1 l2,-2 M0,4 l4,-4 M3,5 l2,-2" stroke="#000000" opacity="0.3" />
+  </pattern>
+</defs>
+<line x1="478.853659" x2="478.853659" y1="34.000000" y2="62.000000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="N257N"><circle cx="478.853659" cy="34.000000" r="4.000000" fill="#0000ff" /></a><g transform="translate(478.853659,34.000000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">N257N</text></g><a xlink:title=",  (263aa)"><rect fill="#BABDB6" x="15.000000" y="62.000000" width="474.682927" height="14.000000"/></a><g transform="translate(34.853659,57.000000)"><a xlink:href="https://www.ebi.ac.uk/interpro/entry/pfam/PF15227" xlink:title="zinc finger of C3HC4-type, RING"><rect fill="#2DCF00" x="0" y="0" width="74.000000" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#ffffff;" text-anchor="middle" x="37.000000" y="16.000000">zf-C3HC4_4</text></a></g>
+<g transform="translate(190.073171,57.000000)"><a xlink:href="https://www.ebi.ac.uk/interpro/entry/pfam/PF13765" xlink:title="SPRY-associated domain"><rect fill="#FF5353" x="0" y="0" width="79.414634" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#ffffff;" text-anchor="middle" x="39.707317" y="16.000000">PRY</text></a></g>
+<g transform="translate(276.707317,57.000000)"><a xlink:href="https://www.ebi.ac.uk/interpro/entry/pfam/PF00622" xlink:title="SPRY domain"><rect fill="#5B5BFF" x="0" y="0" width="193.121951" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#ffffff;" text-anchor="middle" x="96.560976" y="16.000000">SPRY domain</text></a></g>
+<g class="axis">
+<line x1="15.000000" x2="489.682927" y1="91.000000" y2="91.000000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><line x1="34.853659" x2="34.853659" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="34.853659" y="106.000000">11</text><line x1="108.853659" x2="108.853659" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="108.853659" y="106.000000">52</text><line x1="190.073171" x2="190.073171" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="190.073171" y="106.000000">97</text><line x1="269.487805" x2="269.487805" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="269.487805" y="106.000000">141</text><line x1="489.682927" x2="489.682927" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="489.682927" y="106.000000">263</text></g>
+<rect fill="#2DCF00" x="4" y="120.000000" width="12" height="12" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#000000;" text-anchor="start" x="20" y="132.000000">zinc finger of C3HC4-type, RING</text><rect fill="#FF5353" x="4" y="134.000000" width="12" height="12" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#000000;" text-anchor="start" x="20" y="146.000000">SPRY-associated domain</text></svg>

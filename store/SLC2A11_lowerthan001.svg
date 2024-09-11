@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="430.000000" height="170.500000">
+<defs>
+  <filter id="ds" x="0" y="0">
+    <feOffset in="SourceAlpha" dx="2" dy="2" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+    <feGaussianBlur result="blurOut" stdDeviation="1" />
+    <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+  </filter>
+  <pattern id="disordered-hatch" patternUnits="userSpaceOnUse" width="4" height="4">
+    <path d="M-1,1 l2,-2 M0,4 l4,-4 M3,5 l2,-2" stroke="#000000" opacity="0.3" />
+  </pattern>
+</defs>
+<line x1="393.225806" x2="393.225806" y1="34.000000" y2="99.500000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="K469E"><circle cx="393.225806" cy="34.000000" r="4.000000" fill="#ff0000" /></a><g transform="translate(393.225806,34.000000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">K469E</text></g><line x1="395.645161" x2="395.645161" y1="46.500000" y2="99.500000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="K472E"><circle cx="395.645161" cy="46.500000" r="4.000000" fill="#ff0000" /></a><g transform="translate(395.645161,46.500000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">K472E</text></g><line x1="398.064516" x2="398.064516" y1="59.000000" y2="99.500000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="P475P"><circle cx="398.064516" cy="59.000000" r="4.000000" fill="#0000ff" /></a><g transform="translate(398.064516,59.000000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">P475P</text></g><line x1="398.870968" x2="398.870968" y1="71.500000" y2="99.500000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="K476E"><circle cx="398.870968" cy="71.500000" r="4.000000" fill="#ff0000" /></a><g transform="translate(398.870968,71.500000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">K476E</text></g><a xlink:title=",  (496aa)"><rect fill="#BABDB6" x="15.000000" y="99.500000" width="400.000000" height="14.000000"/></a><g transform="translate(31.129032,94.500000)"><a xlink:href="https://www.ebi.ac.uk/interpro/entry/pfam/PF00083" xlink:title="Sugar (and other) transporter"><rect fill="#2DCF00" x="0" y="0" width="362.096774" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#ffffff;" text-anchor="middle" x="181.048387" y="16.000000">Sugar (and other) transporter</text></a></g>
+<g class="axis">
+<line x1="15.000000" x2="415.000000" y1="128.500000" y2="128.500000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="128.500000" y2="133.500000" stroke="#AAAAAA" /><line x1="31.129032" x2="31.129032" y1="128.500000" y2="133.500000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="31.129032" y="143.500000">20</text><line x1="393.225806" x2="393.225806" y1="128.500000" y2="133.500000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="393.225806" y="143.500000">469</text><line x1="415.000000" x2="415.000000" y1="128.500000" y2="133.500000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="415.000000" y="143.500000">496</text></g>
+</svg>

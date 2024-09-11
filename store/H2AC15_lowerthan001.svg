@@ -1,0 +1,18 @@
+<?xml version='1.0'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="430.000000" height="158.700000">
+<defs>
+  <filter id="ds" x="0" y="0">
+    <feOffset in="SourceAlpha" dx="2" dy="2" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+    <feGaussianBlur result="blurOut" stdDeviation="1" />
+    <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+  </filter>
+  <pattern id="disordered-hatch" patternUnits="userSpaceOnUse" width="4" height="4">
+    <path d="M-1,1 l2,-2 M0,4 l4,-4 M3,5 l2,-2" stroke="#000000" opacity="0.3" />
+  </pattern>
+</defs>
+<line x1="58.076923" x2="58.076923" y1="34.000000" y2="74.500000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="K14Q"><circle cx="58.076923" cy="34.000000" r="4.000000" fill="#ff0000" /></a><g transform="translate(58.076923,34.000000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">K14Q</text></g><line x1="61.153846" x2="61.153846" y1="46.500000" y2="74.500000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="A15A"><circle cx="61.153846" cy="46.500000" r="4.000000" fill="#0000ff" /></a><g transform="translate(61.153846,46.500000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">A15A</text></g><a xlink:title=",  (130aa)"><rect fill="#BABDB6" x="15.000000" y="74.500000" width="400.000000" height="14.000000"/></a><g transform="translate(33.461538,69.500000)"><a xlink:href="https://www.ebi.ac.uk/interpro/entry/pfam/PF00125" xlink:title="Core histone H2A/H2B/H3/H4"><rect fill="#2DCF00" x="0" y="0" width="255.384615" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#ffffff;" text-anchor="middle" x="127.692308" y="16.000000">Core histone H2A/H2B/H3/H4</text></a></g>
+<g transform="translate(298.076923,69.500000)"><a xlink:href="https://www.ebi.ac.uk/interpro/entry/pfam/PF16211" xlink:title="C-terminus of histone H2A"><rect fill="#FF5353" x="0" y="0" width="104.615385" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#ffffff;" text-anchor="middle" x="52.307692" y="16.000000">Histone_H2A_C</text></a></g>
+<g class="axis">
+<line x1="15.000000" x2="415.000000" y1="103.500000" y2="103.500000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="103.500000" y2="108.500000" stroke="#AAAAAA" /><line x1="33.461538" x2="33.461538" y1="103.500000" y2="108.500000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="33.461538" y="118.500000">6</text><line x1="58.076923" x2="58.076923" y1="103.500000" y2="108.500000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="58.076923" y="118.500000">14</text><line x1="288.846154" x2="288.846154" y1="103.500000" y2="108.500000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="288.846154" y="118.500000">89</text><line x1="415.000000" x2="415.000000" y1="103.500000" y2="108.500000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="415.000000" y="118.500000">130</text></g>
+<rect fill="#FF5353" x="4" y="132.500000" width="12" height="12" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#000000;" text-anchor="start" x="20" y="144.500000">C-terminus of histone H2A</text></svg>

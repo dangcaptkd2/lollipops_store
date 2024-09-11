@@ -1,0 +1,18 @@
+<?xml version='1.0'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="475.773196" height="146.200000">
+<defs>
+  <filter id="ds" x="0" y="0">
+    <feOffset in="SourceAlpha" dx="2" dy="2" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+    <feGaussianBlur result="blurOut" stdDeviation="1" />
+    <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+  </filter>
+  <pattern id="disordered-hatch" patternUnits="userSpaceOnUse" width="4" height="4">
+    <path d="M-1,1 l2,-2 M0,4 l4,-4 M3,5 l2,-2" stroke="#000000" opacity="0.3" />
+  </pattern>
+</defs>
+<line x1="35.865979" x2="35.865979" y1="34.000000" y2="62.000000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="P22R"><circle cx="35.865979" cy="34.000000" r="4.000000" fill="#ff0000" /></a><g transform="translate(35.865979,34.000000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">P22R</text></g><a xlink:title=",  (470aa)"><rect fill="#BABDB6" x="15.000000" y="62.000000" width="445.773196" height="14.000000"/></a><g transform="translate(23.536082,57.000000)"><a xlink:href="https://www.ebi.ac.uk/interpro/entry/pfam/PF04732" xlink:title="Intermediate filament head (DNA binding) region"><rect fill="#2DCF00" x="0" y="0" width="92.000000" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#ffffff;" text-anchor="middle" x="46.000000" y="16.000000">Filament_head</text></a></g>
+<g transform="translate(116.484536,57.000000)"><a xlink:href="https://www.ebi.ac.uk/interpro/entry/pfam/PF00038" xlink:title="Intermediate filament protein"><rect fill="#FF5353" x="0" y="0" width="292.123711" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#ffffff;" text-anchor="middle" x="146.061856" y="16.000000">Intermediate filament protein</text></a></g>
+<g class="axis">
+<line x1="15.000000" x2="460.773196" y1="91.000000" y2="91.000000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><line x1="35.865979" x2="35.865979" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="35.865979" y="106.000000">22</text><line x1="115.536082" x2="115.536082" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="115.536082" y="106.000000">106</text><line x1="408.608247" x2="408.608247" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="408.608247" y="106.000000">415</text><line x1="460.773196" x2="460.773196" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="460.773196" y="106.000000">470</text></g>
+<rect fill="#2DCF00" x="4" y="120.000000" width="12" height="12" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#000000;" text-anchor="start" x="20" y="132.000000">Intermediate filament head (DNA binding) region</text></svg>

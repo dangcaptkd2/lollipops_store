@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="430.000000" height="145.500000">
+<defs>
+  <filter id="ds" x="0" y="0">
+    <feOffset in="SourceAlpha" dx="2" dy="2" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+    <feGaussianBlur result="blurOut" stdDeviation="1" />
+    <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+  </filter>
+  <pattern id="disordered-hatch" patternUnits="userSpaceOnUse" width="4" height="4">
+    <path d="M-1,1 l2,-2 M0,4 l4,-4 M3,5 l2,-2" stroke="#000000" opacity="0.3" />
+  </pattern>
+</defs>
+<line x1="73.883249" x2="73.883249" y1="34.000000" y2="74.500000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="V29L"><circle cx="73.883249" cy="34.000000" r="4.000000" fill="#ff0000" /></a><g transform="translate(73.883249,34.000000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">V29L</text></g><line x1="75.913706" x2="75.913706" y1="46.500000" y2="74.500000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="S30L"><circle cx="75.913706" cy="46.500000" r="4.000000" fill="#ff0000" /></a><g transform="translate(75.913706,46.500000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">S30L</text></g><line x1="146.979695" x2="146.979695" y1="46.500000" y2="74.500000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="V65L"><circle cx="146.979695" cy="46.500000" r="4.000000" fill="#ff0000" /></a><g transform="translate(146.979695,46.500000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">V65L</text></g><a xlink:title=",  (197aa)"><rect fill="#BABDB6" x="15.000000" y="74.500000" width="400.000000" height="14.000000"/></a><g transform="translate(136.827411,69.500000)"><a xlink:href="https://www.ebi.ac.uk/interpro/entry/pfam/PF02996" xlink:title="Prefoldin subunit"><rect fill="#2DCF00" x="0" y="0" width="247.715736" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#ffffff;" text-anchor="middle" x="123.857868" y="16.000000">Prefoldin subunit</text></a></g>
+<g class="axis">
+<line x1="15.000000" x2="415.000000" y1="103.500000" y2="103.500000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="103.500000" y2="108.500000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="103.500000" y2="108.500000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="15.000000" y="118.500000">0</text><line x1="73.883249" x2="73.883249" y1="103.500000" y2="108.500000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="73.883249" y="118.500000">29</text><line x1="146.979695" x2="146.979695" y1="103.500000" y2="108.500000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="146.979695" y="118.500000">65</text><line x1="384.543147" x2="384.543147" y1="103.500000" y2="108.500000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="384.543147" y="118.500000">182</text><line x1="415.000000" x2="415.000000" y1="103.500000" y2="108.500000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="415.000000" y="118.500000">197</text></g>
+</svg>
