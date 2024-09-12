@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="430.000000" height="158.000000">
+<defs>
+  <filter id="ds" x="0" y="0">
+    <feOffset in="SourceAlpha" dx="2" dy="2" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+    <feGaussianBlur result="blurOut" stdDeviation="1" />
+    <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+  </filter>
+  <pattern id="disordered-hatch" patternUnits="userSpaceOnUse" width="4" height="4">
+    <path d="M-1,1 l2,-2 M0,4 l4,-4 M3,5 l2,-2" stroke="#000000" opacity="0.3" />
+  </pattern>
+</defs>
+<line x1="59.646925" x2="59.646925" y1="34.000000" y2="87.000000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="S98Y"><circle cx="59.646925" cy="34.000000" r="4.000000" fill="#ff0000" /></a><g transform="translate(59.646925,34.000000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">S98Y</text></g><line x1="60.102506" x2="60.102506" y1="46.500000" y2="87.000000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="L99Q"><circle cx="60.102506" cy="46.500000" r="4.000000" fill="#ff0000" /></a><g transform="translate(60.102506,46.500000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">L99Q</text></g><line x1="61.013667" x2="61.013667" y1="46.500000" y2="87.000000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="L101I"><circle cx="61.013667" cy="46.500000" r="4.000000" fill="#ff0000" /></a><g transform="translate(61.013667,46.500000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">L101I</text></g><line x1="66.480638" x2="66.480638" y1="59.000000" y2="87.000000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="T113T"><circle cx="66.480638" cy="59.000000" r="4.000000" fill="#0000ff" /></a><g transform="translate(66.480638,59.000000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">T113T</text></g><a xlink:title=",  (878aa)"><rect fill="#BABDB6" x="15.000000" y="87.000000" width="400.000000" height="14.000000"/></a><g transform="translate(76.958998,82.000000)"><a xlink:href="https://www.ebi.ac.uk/interpro/entry/pfam/PF12881" xlink:title="NUT protein"><rect fill="#2DCF00" x="0" y="0" width="336.674260" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#ffffff;" text-anchor="middle" x="168.337130" y="16.000000">NUT protein</text></a></g>
+<g class="axis">
+<line x1="15.000000" x2="415.000000" y1="116.000000" y2="116.000000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="116.000000" y2="121.000000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="116.000000" y2="121.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="15.000000" y="131.000000">0</text><line x1="59.646925" x2="59.646925" y1="116.000000" y2="121.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="59.646925" y="131.000000">98</text><line x1="415.000000" x2="415.000000" y1="116.000000" y2="121.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="415.000000" y="131.000000">878</text></g>
+</svg>

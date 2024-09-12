@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="430.000000" height="145.500000">
+<defs>
+  <filter id="ds" x="0" y="0">
+    <feOffset in="SourceAlpha" dx="2" dy="2" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+    <feGaussianBlur result="blurOut" stdDeviation="1" />
+    <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+  </filter>
+  <pattern id="disordered-hatch" patternUnits="userSpaceOnUse" width="4" height="4">
+    <path d="M-1,1 l2,-2 M0,4 l4,-4 M3,5 l2,-2" stroke="#000000" opacity="0.3" />
+  </pattern>
+</defs>
+<line x1="119.424779" x2="119.424779" y1="34.000000" y2="74.500000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="A59G"><circle cx="119.424779" cy="34.000000" r="4.000000" fill="#ff0000" /></a><g transform="translate(119.424779,34.000000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">A59G</text></g><line x1="121.194690" x2="121.194690" y1="46.500000" y2="74.500000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="R60G"><circle cx="121.194690" cy="46.500000" r="4.000000" fill="#ff0000" /></a><g transform="translate(121.194690,46.500000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">R60G</text></g><a xlink:title=",  (226aa)"><rect fill="#BABDB6" x="15.000000" y="74.500000" width="400.000000" height="14.000000"/></a><g transform="translate(59.247788,69.500000)"><a xlink:href="https://www.ebi.ac.uk/interpro/entry/pfam/PF17742" xlink:title="Fibronectin type III domain-containing protein 10"><rect fill="#2DCF00" x="0" y="0" width="290.265487" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#ffffff;" text-anchor="middle" x="145.132743" y="16.000000">Fibronectin type III domain-containing protein 10</text></a></g>
+<g class="axis">
+<line x1="15.000000" x2="415.000000" y1="103.500000" y2="103.500000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="103.500000" y2="108.500000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="103.500000" y2="108.500000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="15.000000" y="118.500000">0</text><line x1="59.247788" x2="59.247788" y1="103.500000" y2="108.500000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="59.247788" y="118.500000">25</text><line x1="119.424779" x2="119.424779" y1="103.500000" y2="108.500000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="119.424779" y="118.500000">59</text><line x1="349.513274" x2="349.513274" y1="103.500000" y2="108.500000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="349.513274" y="118.500000">189</text><line x1="415.000000" x2="415.000000" y1="103.500000" y2="108.500000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="415.000000" y="118.500000">226</text></g>
+</svg>

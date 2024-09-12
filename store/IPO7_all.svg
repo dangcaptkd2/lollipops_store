@@ -1,0 +1,18 @@
+<?xml version='1.0'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="621.265823" height="146.200000">
+<defs>
+  <filter id="ds" x="0" y="0">
+    <feOffset in="SourceAlpha" dx="2" dy="2" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+    <feGaussianBlur result="blurOut" stdDeviation="1" />
+    <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+  </filter>
+  <pattern id="disordered-hatch" patternUnits="userSpaceOnUse" width="4" height="4">
+    <path d="M-1,1 l2,-2 M0,4 l4,-4 M3,5 l2,-2" stroke="#000000" opacity="0.3" />
+  </pattern>
+</defs>
+<line x1="22.405063" x2="22.405063" y1="34.000000" y2="62.000000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="T13T"><circle cx="22.405063" cy="34.000000" r="4.000000" fill="#0000ff" /></a><g transform="translate(22.405063,34.000000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">T13T</text></g><a xlink:title=",  (1038aa)"><rect fill="#BABDB6" x="15.000000" y="62.000000" width="591.265823" height="14.000000"/></a><g transform="translate(27.531646,57.000000)"><a xlink:href="https://www.ebi.ac.uk/interpro/entry/pfam/PF03810" xlink:title="Importin-beta N-terminal domain"><rect fill="#2DCF00" x="0" y="0" width="45.000000" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#ffffff;" text-anchor="middle" x="22.500000" y="16.000000">IBN_N</text></a></g>
+<g transform="translate(128.924051,57.000000)"><a xlink:href="https://www.ebi.ac.uk/interpro/entry/pfam/PF08506" xlink:title="Cse1"><rect fill="#FF5353" x="0" y="0" width="136.708861" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#ffffff;" text-anchor="middle" x="68.354430" y="16.000000">Cse1</text></a></g>
+<g class="axis">
+<line x1="15.000000" x2="606.265823" y1="91.000000" y2="91.000000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><line x1="22.405063" x2="22.405063" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="22.405063" y="106.000000">13</text><line x1="72.531646" x2="72.531646" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="72.531646" y="106.000000">101</text><line x1="128.924051" x2="128.924051" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="128.924051" y="106.000000">200</text><line x1="265.632911" x2="265.632911" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="265.632911" y="106.000000">440</text><line x1="606.265823" x2="606.265823" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="606.265823" y="106.000000">1038</text></g>
+<rect fill="#2DCF00" x="4" y="120.000000" width="12" height="12" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#000000;" text-anchor="start" x="20" y="132.000000">Importin-beta N-terminal domain</text></svg>

@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="430.000000" height="145.500000">
+<defs>
+  <filter id="ds" x="0" y="0">
+    <feOffset in="SourceAlpha" dx="2" dy="2" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+    <feGaussianBlur result="blurOut" stdDeviation="1" />
+    <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+  </filter>
+  <pattern id="disordered-hatch" patternUnits="userSpaceOnUse" width="4" height="4">
+    <path d="M-1,1 l2,-2 M0,4 l4,-4 M3,5 l2,-2" stroke="#000000" opacity="0.3" />
+  </pattern>
+</defs>
+<line x1="64.162011" x2="64.162011" y1="34.000000" y2="74.500000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="L22V"><circle cx="64.162011" cy="34.000000" r="4.000000" fill="#ff0000" /></a><g transform="translate(64.162011,34.000000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">L22V</text></g><line x1="66.396648" x2="66.396648" y1="46.500000" y2="74.500000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="V23L"><circle cx="66.396648" cy="46.500000" r="4.000000" fill="#ff0000" /></a><g transform="translate(66.396648,46.500000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">V23L</text></g><line x1="146.843575" x2="146.843575" y1="46.500000" y2="74.500000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="P59S"><circle cx="146.843575" cy="46.500000" r="4.000000" fill="#ff0000" /></a><g transform="translate(146.843575,46.500000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">P59S</text></g><a xlink:title=",  (179aa)"><rect fill="#BABDB6" x="15.000000" y="74.500000" width="400.000000" height="14.000000"/></a><g transform="translate(160.251397,69.500000)"><a xlink:href="https://www.ebi.ac.uk/interpro/entry/pfam/PF01981" xlink:title="Peptidyl-tRNA hydrolase PTH2"><rect fill="#2DCF00" x="0" y="0" width="254.748603" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#ffffff;" text-anchor="middle" x="127.374302" y="16.000000">Peptidyl-tRNA hydrolase PTH2</text></a></g>
+<g class="axis">
+<line x1="15.000000" x2="415.000000" y1="103.500000" y2="103.500000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="103.500000" y2="108.500000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="103.500000" y2="108.500000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="15.000000" y="118.500000">0</text><line x1="64.162011" x2="64.162011" y1="103.500000" y2="108.500000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="64.162011" y="118.500000">22</text><line x1="146.843575" x2="146.843575" y1="103.500000" y2="108.500000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="146.843575" y="118.500000">59</text><line x1="415.000000" x2="415.000000" y1="103.500000" y2="108.500000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="415.000000" y="118.500000">179</text></g>
+</svg>

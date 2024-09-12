@@ -1,0 +1,19 @@
+<?xml version='1.0'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="576.552632" height="146.200000">
+<defs>
+  <filter id="ds" x="0" y="0">
+    <feOffset in="SourceAlpha" dx="2" dy="2" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+    <feGaussianBlur result="blurOut" stdDeviation="1" />
+    <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+  </filter>
+  <pattern id="disordered-hatch" patternUnits="userSpaceOnUse" width="4" height="4">
+    <path d="M-1,1 l2,-2 M0,4 l4,-4 M3,5 l2,-2" stroke="#000000" opacity="0.3" />
+  </pattern>
+</defs>
+<line x1="20.657895" x2="20.657895" y1="34.000000" y2="62.000000" stroke="#BABDB6" stroke-width="2"/><a xlink:title="E5A"><circle cx="20.657895" cy="34.000000" r="4.000000" fill="#ff0000" /></a><g transform="translate(20.657895,34.000000) rotate(-30)"><text style="font-size:10px;font-family:OpenSans;fill:#555;" text-anchor="middle" x="0" y="-6.000000">E5A</text></g><a xlink:title=",  (483aa)"><rect fill="#BABDB6" x="15.000000" y="62.000000" width="546.552632" height="14.000000"/></a><g transform="translate(39.894737,57.000000)"><a xlink:href="https://www.ebi.ac.uk/interpro/entry/pfam/PF06456" xlink:title="Arfaptin-like domain"><rect fill="#2DCF00" x="0" y="0" width="256.868421" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#ffffff;" text-anchor="middle" x="128.434211" y="16.000000">Arfaptin-like domain</text></a></g>
+<g transform="translate(310.342105,57.000000)"><a xlink:href="https://www.ebi.ac.uk/interpro/entry/pfam/PF04629" xlink:title="Islet cell autoantigen ICA69, C-terminal domain"><rect fill="#FF5353" x="0" y="0" width="207.078947" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#ffffff;" text-anchor="middle" x="103.539474" y="16.000000">ICA69</text></a></g>
+<g transform="translate(518.552632,57.000000)"><a xlink:href="https://www.ebi.ac.uk/interpro/entry/pfam/PF04629" xlink:title="Islet cell autoantigen ICA69, C-terminal domain"><rect fill="#5B5BFF" x="0" y="0" width="43.000000" height="24.000000" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#ffffff;" text-anchor="middle" x="21.500000" y="16.000000">ICA69</text></a></g>
+<g class="axis">
+<line x1="15.000000" x2="561.552632" y1="91.000000" y2="91.000000" stroke="#AAAAAA" /><line x1="15.000000" x2="15.000000" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><line x1="20.657895" x2="20.657895" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="20.657895" y="106.000000">5</text><line x1="39.894737" x2="39.894737" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="39.894737" y="106.000000">22</text><line x1="296.763158" x2="296.763158" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="296.763158" y="106.000000">249</text><line x1="517.421053" x2="517.421053" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="517.421053" y="106.000000">444</text><line x1="561.552632" x2="561.552632" y1="91.000000" y2="96.000000" stroke="#AAAAAA" /><text style="font-size:10px;font-family:OpenSans;fill:#000000;" text-anchor="middle" x="561.552632" y="106.000000">483</text></g>
+<rect fill="#5B5BFF" x="4" y="120.000000" width="12" height="12" filter="url(#ds)"/><text style="font-size:12px;font-family:OpenSans;fill:#000000;" text-anchor="start" x="20" y="132.000000">Islet cell autoantigen ICA69, C-terminal domain</text></svg>
